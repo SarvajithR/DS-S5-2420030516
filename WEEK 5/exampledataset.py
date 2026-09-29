@@ -6,6 +6,4 @@ data = pd.DataFrame({
 print(data)
 scaler = MinMaxScaler()
 normalized_data = scaler.fit_transform(data)
-
-
-})
+print(normalized_data)
